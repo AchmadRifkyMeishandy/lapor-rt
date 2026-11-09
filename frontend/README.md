@@ -1,4 +1,5 @@
-# LaporRT - Frontend
+
+# LaporRT Frontend
 
 Frontend aplikasi LaporRT, portal aspirasi dan pengaduan warga untuk membantu pengurus RT menerima, mencatat, dan memantau laporan lingkungan.
 
@@ -12,7 +13,7 @@ Frontend aplikasi LaporRT, portal aspirasi dan pengaduan warga untuk membantu pe
 
 ## Requirements
 
-Pastikan perangkat sudah memiliki:
+Pastikan perangkat telah memiliki:
 
 - Node.js
 - npm
@@ -52,21 +53,22 @@ Jalankan development server:
 npm run dev
 ```
 
-Buka alamat yang ditampilkan oleh Vite di terminal.
+Buka alamat lokal yang ditampilkan oleh Vite di terminal.
 
 ## Available Scripts
 
-| Command           | Description                           |
-| ----------------- | ------------------------------------- |
-| `npm run dev`     | Menjalankan development server        |
-| `npm run build`   | Membuat production build              |
-| `npm run preview` | Menjalankan preview production build  |
-| `npm run lint`    | Memeriksa kualitas kode dengan ESLint |
+| Command | Description |
+|---|---|
+| `npm run dev` | Menjalankan development server |
+| `npm run build` | Membuat production build |
+| `npm run preview` | Menjalankan preview production build |
+| `npm run lint` | Memeriksa kualitas kode dengan ESLint |
 
 ## Project Structure
 
 ```text
 src/
+├── assets/
 ├── components/
 │   ├── admin/
 │   ├── common/
@@ -94,13 +96,13 @@ src/
 - Dashboard Pengurus RT
 - Detail Pengaduan
 
-## Current Development Status
+## Development Status
 
-Frontend sudah memiliki halaman dan komponen utama.
+Halaman dan komponen utama frontend telah dibuat.
 
-Sebagian interaksi masih menggunakan mock data. Integrasi REST API dengan backend Spring Boot akan dilakukan pada tahap pengembangan berikutnya.
+Beberapa interaksi masih menggunakan mock data. Integrasi dengan REST API Spring Boot akan dilakukan pada tahap pengembangan berikutnya.
 
-## Backend
+## Backend Integration
 
 Backend direncanakan menggunakan:
 
@@ -109,6 +111,8 @@ Backend direncanakan menggunakan:
 - Maven
 - PostgreSQL
 
-## Project Repository
+API menggunakan prefix `/api/v1`.
+
+## Repository
 
 https://github.com/AchmadRifkyMeishandy/lapor-rt

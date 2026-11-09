@@ -1,21 +1,63 @@
-# Dependencies
-node_modules/
-frontend/node_modules/
 
-# Environment variables
+# =====================================
+# Operating System
+# =====================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =====================================
+# IDE and Editor
+# =====================================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =====================================
+# Logs
+# =====================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =====================================
+# Node.js / Frontend
+# =====================================
+**/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# =====================================
+# Java / Maven Backend
+# =====================================
+backend/target/
+
+# =====================================
+# Environment Variables and Secrets
+# =====================================
 .env
 .env.*
 !.env.example
+!.env.*.example
 
-# Build output
-frontend/dist/
+# Local Spring Configuration
+**/application-local.properties
 
-# Logs
-*.log
-npm-debug.log*
-
-# IDE and OS
-.idea/
-.vscode/
-.DS_Store
-Thumbs.db
+# =====================================
+# Private Uploads and Storage
+# =====================================
+uploads/
+storage/
+backend/uploads/
+backend/storage/
