@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="160" viewBox="0 0 640 160" role="img" aria-labelledby="title desc">
+  <title id="title">LaporRT</title>
+  <desc id="desc">Logo LaporRT, layanan aspirasi dan pengaduan warga.</desc>
+  <rect x="8" y="16" width="128" height="128" rx="28" fill="#174F3B"/>
+  <path d="M48 48h20v48h40v18H48z" fill="#FFFFFF"/>
+  <circle cx="108" cy="48" r="7" fill="#A8D5B8"/>
+  <text x="166" y="91" fill="#174F3B" font-family="Inter, Arial, sans-serif" font-size="66" font-weight="750" letter-spacing="-2">LaporRT</text>
+  <text x="169" y="121" fill="#64746A" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="2.2">LAYANAN ASPIRASI WARGA</text>
+</svg>
